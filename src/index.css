@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Vazir";
+    src: local("Vzir"),
+    url("./assets/font/Vazirmatn-Medium.ttf") format("truetype");
+}
+
+body, .ant-input,.ant-row,.ant-btn,.ant-form-item-label,.ant-radio-wrapper,.ant-typography,.ant-col{
+    font-family: Vazir !important;
+}
